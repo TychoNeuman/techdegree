@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 29%;
+  border: 3px solid #052d47;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2) rotate(8deg) translateX(200px) translateY(10px);
 }
 .tag {
   background-color: #efefef;
@@ -117,7 +117,55 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #052d47;
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: center;
+}
+.hobbies li{
+  background: #052d47;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hobbies li:nth-child(even){
+  background: #ff9904;
+}
+
+ul.experience{
+background: #052d47;
+color: white;
+margin: 5px;
+padding: 10px;
+border-radius: 6px;
+}
+
+li.experiencelistings{
+  border: solid 2px white;
+  padding: 20px;
+}
+
+.experiencelistings li{
+  list-style-type: none;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.contactform input{
+  margin: 10px;
+}
+
+.maps-image{
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
 }
 
 footer {
