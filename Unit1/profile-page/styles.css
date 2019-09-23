@@ -160,6 +160,10 @@ li.experiencelistings{
   margin: 10px;
 }
 
+.contactform label{
+  display: block;
+}
+
 .maps-image{
   margin-top: 20px;
   margin-left: 15px;
