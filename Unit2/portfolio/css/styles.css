@@ -1,4 +1,5 @@
 /* Base Styles --------*/
+
 :root {
     --background-color: #f4f4f4;
 }
@@ -58,8 +59,12 @@ nav li {
     text-align: center;
 }
 
+.col {
+    padding: 7px;
+}
+
 .col img {
-    width: 80%
+    width: 100%
 }
 
 /* Media Queries ------*/
@@ -84,7 +89,7 @@ nav li {
         float: left;
     }
 
-    .first, .second, .third {
+    .first, .second, .third, .fourth, .fifth {
         width: 50%;
     }
 }
@@ -104,8 +109,8 @@ nav li {
         float: right;
     }
 
-    .first, .second, .third {
-        width: 33.3%;
+    .first, .second, .third, .fourth, .fifth {
+        width: 33%;
     }
 }
 
