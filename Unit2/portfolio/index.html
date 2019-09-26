@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- TODO: 
+- Header element
+- Rows don't snap properly on certain breakpoints
+- Contact gets skewed on certain breakpoints
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +35,7 @@
                 </p>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio clearfix">
             <div class="container">
             <h3>Portfolio</h3>
             <div class="first col">
@@ -58,9 +63,30 @@
                 <h3>Photo Gallery</h3>
                 <p>This project shows pictures of a recent trip to the viewer and allows them to easily navigate trough photos.</p>
             </div>
+            <div class="sixth col">
+                <img src="img/portfolio-6.png" alt="A picture of a calculator!">
+                <h3>Calculator</h3>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </div>
         </div>
         </section>
     </main>
+    <aside>
+        <section class="contact">
+            <div class="container">
+                <h3>Contact</h3>
+                <p>If you're intrested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+                <p>Phone <span>+31(0)6 123 456 789</span></p>
+                <p>Email <span>myemail@gmail.com</span></p>
+            </div>
+        </section>
+        <footer class="footer clearfix">
+            <div class="container">
+            <p id="studentname">Tycho Neuman</p>
+            <p id="backtotop">Back To Top</p>
+        </div>
+        </footer>
+    </aside>
     
 </body>
 </html>
