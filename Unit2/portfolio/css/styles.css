@@ -1,0 +1,120 @@
+/* Base Styles --------*/
+:root {
+    --background-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Wrapper Styles -----*/
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Layout Styles ------*/
+
+nav li {
+    background-color: white;
+}
+
+.introduction img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.introduction p {
+    text-align: center;
+}
+
+/* Class Styles -------*/
+
+.name {
+    text-align: center;
+}
+
+.navigation {
+    padding: 0;
+    text-align: center;     
+}
+
+.navigation li {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.col img {
+    width: 80%
+}
+
+/* Media Queries ------*/
+
+@media (min-width: 768px) {
+
+    .navigation li {
+        display: inline-block;
+        background-color: var(--background-color);
+    }
+
+    .introduction img {
+        float: right;
+        width: 50%;
+    }
+
+    .introduction p {
+        width: 50%;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .first, .second, .third {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .name {
+        float: left;
+    }
+
+    .navigation {
+        float: right;
+    }
+
+    .first, .second, .third {
+        width: 33.3%;
+    }
+}
+
+/* Clearfix -----------*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
