@@ -6,11 +6,16 @@
 
 * {
     box-sizing: border-box;
+    overflow: auto;
 }
 
 body {
     background-color: var(--background-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+    font-family: 'Mansalva', cursive;
 }
 
 ul li {
@@ -24,6 +29,10 @@ ul li {
     margin: auto;
 }
 
+.gutter {
+    padding: 10px;
+}
+
 /* Layout Styles ------*/
 
 nav li {
@@ -33,11 +42,12 @@ nav li {
 .introduction img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 80%;
 }
 
 .introduction p {
     text-align: center;
+    padding: 5px;
 }
 
 /* Class Styles -------*/
@@ -52,8 +62,10 @@ nav li {
 }
 
 .navigation li {
-    padding: 5px;
+    padding: 10px;
     margin: 5px 0 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .portfolio {
@@ -64,10 +76,6 @@ nav li {
 .portfolio img:hover {
     transition: all .5s;
     transform: scale(1.02);
-}
-
-.col {
-    padding: 7px;
 }
 
 .col:hover {
@@ -102,6 +110,15 @@ nav li {
     text-transform: uppercase;
 }
 
+#portfolioheader {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#contactheader {
+    text-transform: uppercase;
+}
+
 /* Media Queries ------*/
 
 @media (min-width: 768px) {
@@ -118,6 +135,7 @@ nav li {
 
     .introduction p {
         width: 50%;
+        padding-top: 5%;
     }
 
     .col {
@@ -132,20 +150,26 @@ nav li {
 @media (min-width: 1024px) {
 
     .container {
-        width: 80%;
+        width: 90%;
         margin: auto;
+    }
+
+    .introduction p {
+        padding-top: 9%;
     }
 
     .name {
         float: left;
+        padding: 10px;
     }
 
     .navigation {
         float: right;
+        padding: 10px;
     }
 
     .first, .second, .third, .fourth, .fifth, .sixth {
-        width: 33%;
+        width: 33.3%;
     }
 }
 
