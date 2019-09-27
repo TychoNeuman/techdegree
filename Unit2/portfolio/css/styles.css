@@ -113,6 +113,10 @@ nav li {
     font-weight: bold;
 }
 
+.navigationbottom {
+    display: none;
+}
+
 .footer {
     border-top: 1px solid black;
     font-weight: bold;
@@ -164,6 +168,22 @@ nav li {
 
     .first, .second, .third, .fourth, .fifth, .sixth {
         width: 50%;
+    }
+
+    .navigationbottom {
+        display: initial;
+        float: right;
+    }
+
+    .navigationbottom li {
+        float: left;
+        padding: 0px 15px;
+        background-color: var(--background-color);
+        text-transform: uppercase;
+    }
+
+    #backtotop {
+        display: none;
     }
 }
 
