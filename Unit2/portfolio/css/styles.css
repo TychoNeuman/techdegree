@@ -6,7 +6,7 @@
 
 * {
     box-sizing: border-box;
-    overflow: auto;
+    overflow: inherit;
 }
 
 body {
@@ -20,6 +20,15 @@ body {
 
 ul li {
     list-style-type: none;
+}
+
+.col h3 {
+    font-size: 1em;
+}
+
+.col p {
+    font-size: .9rem;
+    max-height: 30px;
 }
 
 /* Wrapper Styles -----*/
@@ -103,6 +112,7 @@ nav li {
 
 #studentname {
     float: left;
+    font-family: 'Mansalva', cursive;
 }
 
 #backtotop {
@@ -112,7 +122,7 @@ nav li {
 
 #portfolioheader {
     text-transform: uppercase;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 #contactheader {
@@ -191,7 +201,7 @@ body{
     display: table;
   }
 
-  /* Fade In Keyframes --- */
+/* Fade In Keyframes --- */
 
 @keyframes fadein {
     from { opacity: 0; }
