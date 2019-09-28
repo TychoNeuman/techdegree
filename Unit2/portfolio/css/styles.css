@@ -76,6 +76,10 @@ nav li {
     background: lightblue;
 }
 
+.skills h3 {
+    text-transform: uppercase;
+}
+
 /* Class Styles -------*/
 
 .name {
