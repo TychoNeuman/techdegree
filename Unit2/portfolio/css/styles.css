@@ -69,6 +69,13 @@ nav li {
     padding: 5px;
 }
 
+.skills {
+    text-align: center;
+    background: white;
+    padding: 15px 0;
+    background: lightblue;
+}
+
 /* Class Styles -------*/
 
 .name {
@@ -103,6 +110,10 @@ nav li {
 
 .col img {
     width: 100%;
+}
+
+.skills span:nth-of-type(even) {
+    color: lightcoral;
 }
 
 .contact {
