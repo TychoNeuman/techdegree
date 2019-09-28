@@ -25,7 +25,7 @@ a:hover {
 }
 
 .name {
-    font-family: 'Mansalva', cursive;
+    font-family: 'Mansalva', cursive, sans-serif;
 }
 
 ul li {
@@ -141,7 +141,7 @@ nav li {
 
 #studentname {
     float: left;
-    font-family: 'Mansalva', cursive;
+    font-family: 'Mansalva', cursive, sans-serif;
 }
 
 #backtotop {
